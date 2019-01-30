@@ -36,7 +36,7 @@ $mq-fixed-value: 1024;
 /* Media Queries */
 /* Setting the Web Font inside a media query so that Outlook doesn't try to render the web font */
 @media screen {
-  /* line 41, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+  /* line 41, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
   .email-heading h1,
   .store-info h4,
   th.cell-name,
@@ -55,34 +55,34 @@ $mq-fixed-value: 1024;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 59, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+  /* line 59, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
   body {
     width: 94% !important;
     padding: 0 3% !important;
     display: block !important;
   }
-  /* line 64, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+  /* line 64, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
   .container-table {
     width: 100% !important;
     max-width: 600px;
     min-width: 300px;
   }
-  /* line 69, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+  /* line 69, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
   td.store-info h4 {
     margin-top: 8px !important;
     margin-bottom: 0px !important;
   }
-  /* line 73, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+  /* line 73, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
   td.store-info p {
     margin: 5px 0 !important;
   }
-  /* line 76, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+  /* line 76, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
   .wrapper {
     width: 100% !important;
     display: block;
     padding: 5px 0 !important;
   }
-  /* line 81, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+  /* line 81, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
   .cell-name,
   .cell-content {
     padding: 8px !important;
@@ -90,7 +90,7 @@ $mq-fixed-value: 1024;
 }
 
 @media screen and (max-width: 450px) {
-  /* line 88, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+  /* line 88, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
   .email-heading,
   .store-info {
     float: left;
@@ -100,82 +100,82 @@ $mq-fixed-value: 1024;
     padding: 10px 1% !important;
     border-right: 0px !important;
   }
-  /* line 97, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+  /* line 97, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
   .address-details, .method-info {
     width: 85%;
     display: block;
   }
-  /* line 101, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+  /* line 101, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
   .store-info {
     border-top: 1px dashed #C3CED4;
   }
-  /* line 104, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+  /* line 104, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
   .method-info {
     margin-bottom: 15px !important;
   }
 }
 
 /* Remove link color on iOS */
-/* line 110, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+/* line 110, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
 .no-link a {
   color: #333333 !important;
   cursor: default !important;
   text-decoration: none !important;
 }
 
-/* line 116, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+/* line 116, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
 .method-info h6,
 .address-details h6,
 .closing-text {
   color: #3696C2 !important;
 }
 
-/* line 121, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+/* line 121, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
 td.order-details h3,
 td.store-info h4 {
   color: #333333 !important;
 }
 
-/* line 125, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+/* line 125, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
 .method-info p,
 .method-info dl {
   margin: 5px 0 !important;
   font-size: 12px !important;
 }
 
-/* line 130, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+/* line 130, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
 td.align-center {
   text-align: center !important;
 }
 
-/* line 133, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+/* line 133, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
 td.align-right {
   text-align: right !important;
 }
 
 /* Newsletter styles */
-/* line 138, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+/* line 138, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
 td.expander {
   padding: 0 !important;
 }
 
-/* line 141, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+/* line 141, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
 table.button td,
 table.social-button td {
   width: 92% !important;
 }
 
-/* line 145, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+/* line 145, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
 table.facebook:hover td {
   background: #2d4473 !important;
 }
 
-/* line 148, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+/* line 148, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
 table.twitter:hover td {
   background: #0087bb !important;
 }
 
-/* line 151, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+/* line 151, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
 table.google-plus:hover td {
   background: #CC0000 !important;
 }
@@ -184,7 +184,7 @@ table.google-plus:hover td {
  * Product Grid
  * ============================================ */
 @media screen and (max-width: 600px) {
-  /* line 160, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+  /* line 160, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
   .products-grid tr td {
     width: 50% !important;
     display: block !important;
@@ -192,7 +192,7 @@ table.google-plus:hover td {
   }
 }
 
-/* line 167, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
+/* line 167, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/email-non-inline.scss */
 .product-name a:hover {
   color: #3399CC !important;
   text-decoration: none !important;

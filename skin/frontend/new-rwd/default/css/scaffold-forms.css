@@ -35,32 +35,32 @@ $mq-fixed-value: 1024;
  * SCAFFOLD FORM
  * ============================================ */
 /* Scaffolding can not be applied globally to all forms, since some forms are best displayed in a stacked layout */
-/* line 35, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
+/* line 35, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
 .scaffold-form .form-list > li {
   display: block;
 }
 
-/* line 38, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
+/* line 38, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
 .scaffold-form .form-list > li:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 43, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
+/* line 43, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
 .scaffold-form .fields {
   margin: 0;
   padding: 0;
 }
 
-/* line 46, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
+/* line 46, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
 .scaffold-form .fields:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 51, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
+/* line 51, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
 .scaffold-form .fields > .fields,
 .scaffold-form .field,
 .scaffold-form .wide,
@@ -68,7 +68,7 @@ $mq-fixed-value: 1024;
   margin-bottom: 7px;
 }
 
-/* line 56, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
+/* line 56, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
 .scaffold-form .fields > .fields:after,
 .scaffold-form .field:after,
 .scaffold-form .wide:after,
@@ -78,14 +78,14 @@ $mq-fixed-value: 1024;
   clear: both;
 }
 
-/* line 61, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
+/* line 61, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
 .scaffold-form label:first-child {
   float: left;
   width: 135px;
   padding: 7px 8px 0 0;
 }
 
-/* line 67, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
+/* line 67, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
 .scaffold-form select,
 .scaffold-form textarea,
 .scaffold-form input[type=email],
@@ -98,37 +98,37 @@ $mq-fixed-value: 1024;
   max-width: 100%;
 }
 
-/* line 79, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
+/* line 79, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
 .scaffold-form .input-box {
   float: left;
   max-width: 350px;
 }
 
-/* line 84, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
+/* line 84, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
 .scaffold-form .buttons-set {
   padding-top: 5px;
 }
 
 @media only screen and (max-width: 599px) {
-  /* line 93, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
+  /* line 93, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
   .scaffold-form label:first-child {
     float: none;
     width: auto;
     padding: 0;
   }
-  /* line 99, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
+  /* line 99, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
   .scaffold-form .input-box {
     float: none;
     max-width: 100%;
   }
-  /* line 103, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
+  /* line 103, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
   .scaffold-form .control .input-box {
     clear: none;
     float: left;
     display: inline;
     width: auto;
   }
-  /* line 109, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
+  /* line 109, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/scaffold-forms.scss */
   .scaffold-form .control label:first-child {
     float: left;
   }
