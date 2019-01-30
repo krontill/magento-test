@@ -3995,28 +3995,38 @@ a.skip-link {
 }
 
 /* line 78, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_footer.scss */
+.footer .links:nth-child(2):before {
+  transform: rotate(90deg);
+}
+
+/* line 82, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_footer.scss */
+.footer .links:nth-child(3):before {
+  transform: rotate(180deg);
+}
+
+/* line 86, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_footer.scss */
 .footer .links:last-child {
   border: none;
 }
 
-/* line 82, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_footer.scss */
+/* line 90, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_footer.scss */
 .footer .links li {
   word-break: break-all;
   line-height: 1.4;
   padding: 4px 0;
 }
 
-/* line 88, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_footer.scss */
+/* line 96, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_footer.scss */
 .footer .links a {
   color: #636363;
 }
 
-/* line 90, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_footer.scss */
+/* line 98, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_footer.scss */
 .footer .links a:hover {
   color: #3399CC;
 }
 
-/* line 104, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_footer.scss */
+/* line 112, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_footer.scss */
 .footer .bugs {
   clear: both;
   display: none;
