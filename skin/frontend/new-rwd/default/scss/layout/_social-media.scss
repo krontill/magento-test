@@ -1,0 +1,66 @@
+.social-media {
+  width: 100%;
+  z-index: 1;
+  background: $c-red;
+  text-align: center;
+  padding: $trim;
+
+  .block-title {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+
+    strong {
+      color: $c-text-white;
+    }
+  }
+
+  ul {
+    padding: $trim/2 0;
+    display: inline-flex;
+
+    a {
+      text-indent: -9999px;
+      display: inline-flex;
+    }
+  }
+}
+
+.social-media em {
+  background-image: url(../images/social_icons.png);
+  background-repeat: no-repeat;
+  width: 13px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 7px;
+}
+
+@include if-min-resolution(2) {
+  .links.social-media em {
+    background-image: url(../images/social_icons@2x.png);
+    background-size: 50px 125px;
+  }
+}
+
+@mixin footer-social-icon($class, $y, $height: 13) {
+  .links.social-media em.#{$class} {
+    background-position: 0 -#{$y}px;
+    height: #{$height}px;
+  }
+
+  .links.social-media a:hover em.#{$class} {
+    background-position: -25px -#{$y}px;
+  }
+}
+
+@include footer-social-icon(facebook, 0);
+@include footer-social-icon(twitter, 24);
+@include footer-social-icon(youtube, 49);
+@include footer-social-icon(pinterest, 74, 15);
+@include footer-social-icon(rss, 99);
+
+@include bp(min-width, $bp-medium + 1) {
+  .social-media {
+    width: 50%;
+  }
+}

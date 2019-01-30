@@ -1,0 +1,36 @@
+.logo {
+  display: inline-block;
+  padding: $gap;
+
+  &__img {
+    max-width: 100%;
+  }
+
+  &__img--small {
+    display: block;
+  }
+
+  &__img--large {
+    display: none;
+  }
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+}
+
+@include bp(min-width, $bp-medium + 1) {
+  .logo {
+    width: 130px;
+    height: 43px;
+
+    &__img--small {
+      display: none;
+    }
+
+    &__img--large {
+      display: block;
+    }
+  }
+}

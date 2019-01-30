@@ -1,0 +1,10 @@
+@include bp(min-width, $bp-medium + 1) {
+  .page-header-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    max-width: $max-container-width;
+    margin: 0 auto;
+    padding: 0 $trim;
+  }
+}

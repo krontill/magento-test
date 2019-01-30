@@ -1,0 +1,62 @@
+.subscribe {
+  width: 100%;
+  padding: $trim;
+  text-transform: uppercase;
+  font-size: $f-size-xs;
+  background: $c-light-gray;
+  z-index: 1;
+
+  &__title {
+    color: $c-text-white;
+  }
+
+  &__field-group {
+    display: flex;
+    padding: $trim/2 0;
+    max-width: 300px;
+
+    &:after {
+      @include clearfix;
+    }
+  }
+
+  &__label {
+    color: $c-text-white;
+    text-transform: none;
+  }
+
+  &__input {
+    width: 270px;
+    padding-top: 0;
+    border-right: 0;
+    border: none;
+    border-radius: 0;
+  }
+
+  &__button {
+    width: 40px;
+    margin: 0;
+    height: 30px;
+    background: $c-white url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgMzA2IDMwNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzA2IDMwNjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnIGlkPSJjaGV2cm9uLXJpZ2h0Ij4KCQk8cG9seWdvbiBwb2ludHM9Ijk0LjM1LDAgNTguNjUsMzUuNyAxNzUuOTUsMTUzIDU4LjY1LDI3MC4zIDk0LjM1LDMwNiAyNDcuMzUsMTUzICAgIiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==) no-repeat center center;
+    background-size: 10px 10px;
+    border: none;
+    text-indent: -9999px;
+    flex-shrink: 0;
+  }
+}
+
+.subscribe .validation-advice {
+  position: absolute;
+  margin-top: 40px;
+}
+
+@include bp(min-width, $bp-medium + 1) {
+  .subscribe {
+    width: 50%;
+    text-align: center;
+
+    &__field-group {
+      margin: 0 auto;
+    }
+  }
+}

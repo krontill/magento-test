@@ -44,3 +44,7 @@
 !/var/package/*.xml
 
 .idea
+
+.sass-cache
+
+node_modules

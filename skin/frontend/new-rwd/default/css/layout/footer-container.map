@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../scss/layout/footer-container.css",
+	"sources": [
+		"../../scss/layout/footer-container.scss"
+	],
+	"sourcesContent": [
+		".footer-container {\n\n}"
+	],
+	"mappings": "",
+	"names": []
+}
