@@ -4914,84 +4914,45 @@ address {
   display: inline-flex;
 }
 
-/* line 29, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
-.social-media em {
-  background-image: url(../images/social_icons.png);
+/* line 28, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
+.social-media.links em {
+  background-size: 32px 32px;
   background-repeat: no-repeat;
-  width: 13px;
-  vertical-align: middle;
-  display: inline-block;
+  height: 32px;
+  width: 32px;
+  filter: invert(1);
+  transition: filter .3s;
   margin-right: 7px;
+  display: none;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 4 / 2), (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  /* line 39, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
-  .links.social-media em {
-    background-image: url(../images/social_icons@2x.png);
-    background-size: 50px 125px;
-  }
+/* line 38, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
+.social-media.links em:hover, .social-media.links em:focus {
+  filter: invert(0);
 }
 
-/* line 46, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
-.links.social-media em.facebook {
-  background-position: 0 -0px;
-  height: 13px;
+/* line 44, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
+.social-media.links em.facebook {
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBkPSJNMjEuOTUgNS4wMDVsLTMuMzA2LS4wMDRjLTMuMjA2IDAtNS4yNzcgMi4xMjQtNS4yNzcgNS40MTV2Mi40OTVIMTAuMDV2NC41MTVoMy4zMTdsLS4wMDQgOS41NzVoNC42NDFsLjAwNC05LjU3NWgzLjgwNmwtLjAwMy00LjUxNGgtMy44MDN2LTIuMTE3YzAtMS4wMTguMjQxLTEuNTMzIDEuNTY2LTEuNTMzbDIuMzY2LS4wMDEuMDEtNC4yNTZ6Ii8+PC9zdmc+");
+  display: inline-block;
 }
 
-/* line 51, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
-.links.social-media a:hover em.facebook {
-  background-position: -25px -0px;
+/* line 49, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
+.social-media.links em.twitter {
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBkPSJNMTEuOTE5IDI0Ljk0Yy0yLjU0OCAwLTQuOTIxLS43NDctNi45MTktMi4wMzJhOS4wNDkgOS4wNDkgMCAwIDAgNi42ODEtMS44NjcgNC41MTIgNC41MTIgMCAwIDEtNC4yMTUtMy4xMzdjLjI3Ni4wNTQuNTU5LjA4Mi44NDguMDgyLjQxMiAwIC44MTItLjA1NiAxLjE5My0uMTU2YTQuNTE5IDQuNTE5IDAgMCAxLTMuNjIyLTQuNDI1di0uMDU5YTQuNDc4IDQuNDc4IDAgMCAwIDIuMDQyLjU2NCA0LjUwNyA0LjUwNyAwIDAgMS0yLjAwOC0zLjc1OGMwLS44MjQuMjI1LTEuNjAyLjYxMi0yLjI2OGExMi44MTEgMTIuODExIDAgMCAwIDkuMzAzIDQuNzE1IDQuNTE3IDQuNTE3IDAgMCAxIDcuNjkyLTQuMTE1IDkuMTA3IDkuMTA3IDAgMCAwIDIuODY2LTEuMDk0IDQuNTQyIDQuNTQyIDAgMCAxLTEuOTgzIDIuNDk4IDkuMDggOS4wOCAwIDAgMCAyLjU5Mi0uNzEgOS4yODMgOS4yODMgMCAwIDEtMi4yNTIgMi4zMzdjLjAwOC4xOTMuMDE0LjM4OC4wMTQuNTgzLS4wMDEgNS45NjItNC41NDIgMTIuODQzLTEyLjg0NCAxMi44NDIiLz48L3N2Zz4=");
+  display: inline-block;
 }
 
-/* line 46, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
-.links.social-media em.twitter {
-  background-position: 0 -24px;
-  height: 13px;
+/* line 54, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
+.social-media.links em.pinterest {
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBkPSJNMTYuMjkyIDVDMTAuNTM2IDUgNy40OCA4Ljg2NiA3LjQ4IDEzLjA3N2MwIDEuOTU1IDEuMDM5IDQuMzkyIDIuNzA3IDUuMTY4LjI1My4xMTguMzg3LjA2NC40NDMtLjE4LjA0Ny0uMTg1LjI3My0xLjA4OS4zNzMtMS41MTFhLjQwMi40MDIgMCAwIDAtLjA5NS0uMzg2Yy0uNTUtLjY2Ny0uOTg4LTEuODk2LS45ODgtMy4wNDEgMC0yLjk0MiAyLjIyOC01Ljc4NyA2LjAyMS01Ljc4NyAzLjI4IDAgNS41NzEgMi4yMyA1LjU3MSA1LjQyNiAwIDMuNjEtMS44MiA2LjEwOC00LjE5MSA2LjEwOC0xLjMwOSAwLTIuMjkxLTEuMDgxLTEuOTc4LTIuNDEzLjM3OC0xLjU4NCAxLjEwNi0zLjI5OCAxLjEwNi00LjQzOCAwLTEuMDI2LS41NTItMS44ODMtMS42ODUtMS44ODMtMS4zNDEgMC0yLjQxNSAxLjM4NS0yLjQxNSAzLjI0MSAwIDEuMTgyLjQgMS45NzguNCAxLjk3OHMtMS4zMjMgNS41OTMtMS41NjMgNi42MzRjLS40MTMgMS43NjUuMDUxIDQuNjI1LjA5NCA0Ljg3Ni4wMjEuMTM0LjE3Mi4xOC4yNTIuMDY2LjEyOS0uMTc1IDEuNzI1LTIuNTY1IDIuMTc0LTQuMjkybC44MjgtMy4xNzFjLjQzOS44MjkgMS43MDcgMS41MzEgMy4wNjEgMS41MzEgNC4wMjEgMCA2LjkyMy0zLjcwMyA2LjkyMy04LjI5OUMyNC41MiA4LjMwMSAyMC45MiA1IDE2LjI5MiA1eiIvPjwvc3ZnPg==");
+  display: inline-block;
 }
 
-/* line 51, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
-.links.social-media a:hover em.twitter {
-  background-position: -25px -24px;
-}
-
-/* line 46, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
-.links.social-media em.youtube {
-  background-position: 0 -49px;
-  height: 13px;
-}
-
-/* line 51, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
-.links.social-media a:hover em.youtube {
-  background-position: -25px -49px;
-}
-
-/* line 46, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
-.links.social-media em.pinterest {
-  background-position: 0 -74px;
-  height: 15px;
-}
-
-/* line 51, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
-.links.social-media a:hover em.pinterest {
-  background-position: -25px -74px;
-}
-
-/* line 46, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
-.links.social-media em.rss {
-  background-position: 0 -99px;
-  height: 13px;
-}
-
-/* line 51, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
-.links.social-media a:hover em.rss {
-  background-position: -25px -99px;
-}
-
-@media only screen and (min-width: 771px) {
-  /* line 63, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
-  .social-media {
-    width: 50%;
-  }
+/* line 59, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/layout/_social-media.scss */
+.social-media.links em.youtube {
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48cGF0aCBkPSJNMjQuMzI1IDguMzA5cy0yLjY1NS0uMzM0LTguMzU3LS4zMzRjLTUuNTE3IDAtOC4yOTQuMzM0LTguMjk0LjMzNEEyLjY3NSAyLjY3NSAwIDAgMCA1IDEwLjk4NHYxMC4wMzRhMi42NzUgMi42NzUgMCAwIDAgMi42NzQgMi42NzZzMi41ODIuMzMyIDguMjk0LjMzMmM1LjcwOSAwIDguMzU3LS4zMzIgOC4zNTctLjMzMkEyLjY3MyAyLjY3MyAwIDAgMCAyNyAyMS4wMThWMTAuOTgyYTIuNjczIDIuNjczIDAgMCAwLTIuNjc1LTIuNjczek0xMy4wNjEgMTkuOTc1VjEyLjAzTDIwLjE5NSAxNmwtNy4xMzQgMy45NzV6Ii8+PC9zdmc+");
+  display: inline-block;
 }
 
 /* ================================================= *
