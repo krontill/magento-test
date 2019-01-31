@@ -1,0 +1,44 @@
+.product-view .sharing-links {
+  padding-top: 8px;
+
+  &:after {
+    @include clearfix;
+  }
+
+  li {
+    float: left;
+    padding: 0px 7px 7px;
+  }
+
+  a {
+    @include image-replacement;
+    @extend .icon-sprite;
+    display: block;
+    width: 26px;
+    height: 26px;
+  }
+
+  a:hover {
+    opacity: 0.8;
+  }
+
+  a.link-wishlist {
+    background-position: 0px -225px;
+  }
+
+  a.link-compare {
+    background-position: 0px -250px;
+  }
+
+  a.link-email-friend {
+    background-position: 0px (-325px + 3px);
+  }
+
+  a.link-facebook {
+    background-position: 0px -425px;
+  }
+
+  a.link-twitter {
+    background-position: 0px (-375px + 3px);
+  }
+}

@@ -590,6 +590,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./src/collapse.js":
+/*!*************************!*\
+  !*** ./src/collapse.js ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("const triggers = Array.from(document.querySelectorAll('[data-toggle=\"collapse\"]'));\n\nwindow.addEventListener('click', (ev) => {\n    const elm = ev.target;\n    if (triggers.includes(elm)) {\n        const selector = elm.getAttribute('data-target');\n        collapse(selector, elm);\n    }\n}, false);\n\nconst collapse = (selector, el) => {\n    el.classList.toggle('open');\n    const targets = Array.from(document.querySelectorAll(selector));\n    targets.forEach(target => {\n        target.classList.toggle('show');\n    });\n};\n\n//# sourceURL=webpack:///./src/collapse.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -598,7 +609,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sliders__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sliders */ \"./src/sliders.js\");\n\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sliders__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sliders */ \"./src/sliders.js\");\n/* harmony import */ var _collapse__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./collapse */ \"./src/collapse.js\");\n/* harmony import */ var _collapse__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_collapse__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -610,7 +621,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sli
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_tiny_slider_src_tiny_slider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/tiny-slider/src/tiny-slider */ \"./node_modules/tiny-slider/src/tiny-slider.js\");\n\n\nconst related = document.querySelector('.related-slider');\n\nif(related) {\n    const slider = Object(_node_modules_tiny_slider_src_tiny_slider__WEBPACK_IMPORTED_MODULE_0__[\"tns\"])({\n        container: '.related-slider',\n    });\n}\n\n\n//# sourceURL=webpack:///./src/sliders.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_tiny_slider_src_tiny_slider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/tiny-slider/src/tiny-slider */ \"./node_modules/tiny-slider/src/tiny-slider.js\");\n\n\nconst related = document.querySelector('.related-slider');\n\nif(related) {\n    const slider = Object(_node_modules_tiny_slider_src_tiny_slider__WEBPACK_IMPORTED_MODULE_0__[\"tns\"])({\n        container: '.related-slider',\n        slideBy: 'page',\n        nav: false\n    });\n}\n\n\n//# sourceURL=webpack:///./src/sliders.js?");
 
 /***/ })
 
