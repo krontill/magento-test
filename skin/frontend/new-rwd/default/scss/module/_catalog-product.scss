@@ -376,11 +376,6 @@
         height: 40px;
     }
 
-    .personalization-button {
-        max-width: 300px;
-        padding-bottom: 30px;
-    }
-
     .add-to-cart-buttons {
         margin-right: 10px;
         max-width: 300px; // Constrain width in Firefox
@@ -416,7 +411,6 @@
         }
     }
 
-    .personalization-button .button,
     .add-to-cart-buttons .button {
         min-height: 40px;
         line-height: 40px;
@@ -425,10 +419,6 @@
         min-width: 160px;
         width: 100%;
         white-space: normal;
-    }
-
-    .personalization-button .button {
-        background: $c-gray;
     }
 
     .alert-price,

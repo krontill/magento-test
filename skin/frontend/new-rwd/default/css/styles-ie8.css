@@ -5346,43 +5346,37 @@ p.product-name a:hover {
 }
 
 /* line 379, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
-.product-view .personalization-button {
-  max-width: 300px;
-  padding-bottom: 30px;
-}
-
-/* line 384, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart-buttons {
   margin-right: 10px;
   max-width: 300px;
 }
 
-/* line 388, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 383, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart-buttons .paypal-logo {
   clear: left;
   text-align: center;
 }
 
-/* line 392, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 387, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart-buttons .paypal-logo .paypal-button {
   margin: 0 auto;
   display: block;
   width: 170px;
 }
 
-/* line 398, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 393, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart-buttons .paypal-logo .bml_button {
   display: block;
   width: 174px;
   margin: 0 auto;
 }
 
-/* line 403, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 398, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart-buttons .paypal-logo .bml_button a {
   text-align: center;
 }
 
-/* line 408, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 403, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart-buttons .paypal-logo .paypal-or {
   display: block;
   margin-bottom: 10px;
@@ -5392,8 +5386,7 @@ p.product-name a:hover {
   text-align: center;
 }
 
-/* line 419, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
-.product-view .personalization-button .button,
+/* line 414, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart-buttons .button {
   min-height: 40px;
   line-height: 40px;
@@ -5404,24 +5397,19 @@ p.product-name a:hover {
   white-space: normal;
 }
 
-/* line 430, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
-.product-view .personalization-button .button {
-  background: #333333;
-}
-
-/* line 434, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 424, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .alert-price,
 .product-view .alert-stock {
   clear: both;
 }
 
 /* This is the "or" that separates the "Add to Cart" and "Add to X" links */
-/* line 461, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 451, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .add-to-box .or {
   display: none;
 }
 
-/* line 465, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 455, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-links {
   clear: both;
   margin-top: 0px;
@@ -5429,46 +5417,46 @@ p.product-name a:hover {
   float: left;
 }
 
-/* line 471, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 461, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-links:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 475, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 465, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-links li {
   float: left;
 }
 
-/* line 479, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 469, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-links a {
   padding: 2px 7px 2px 0px;
   margin-left: 7px;
   border-right: 1px solid #CCCCCC;
 }
 
-/* line 485, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 475, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-links li:first-child a {
   margin-left: 0px;
 }
 
-/* line 489, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 479, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-links li:last-child a {
   border-right: 0px;
 }
 
-/* line 504, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 494, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-collateral {
   clear: both;
 }
 
-/* line 510, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 500, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .collateral-tabs dd h2 {
   display: none;
 }
 
-/* line 516, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 506, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .box-collateral {
   clear: both;
 }
@@ -5561,30 +5549,30 @@ p.product-name a:hover {
   display: block;
 }
 
-/* line 551, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 541, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .product-shop .product-name {
   display: block;
 }
 
-/* line 554, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 544, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-img-box .product-name {
   display: none;
 }
 
-/* line 571, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 561, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .ratings .rating-links {
   clear: left;
   float: left;
   margin-top: 0;
 }
 
-/* line 578, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 568, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 #product-attribute-specs-table {
   max-width: 50em;
   border: 1px solid #C0C0C0;
 }
 
-/* line 582, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 572, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 #product-attribute-specs-table th {
   border-right: 1px solid #C0C0C0;
   border-bottom: 1px solid #C0C0C0;
@@ -5593,7 +5581,7 @@ p.product-name a:hover {
 /* -------------------------------------------- *
  * Catalog - Grouped Product List
  */
-/* line 592, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 582, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table-wrapper {
   border: solid 1px #C0C0C0;
   width: 100%;
@@ -5601,39 +5589,39 @@ p.product-name a:hover {
   margin-bottom: 15px;
 }
 
-/* line 598, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 588, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table-wrapper tbody tr:last-child td {
   border-bottom: none;
 }
 
-/* line 607, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 597, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table .name-wrapper {
   color: #3399CC;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
 
-/* line 612, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 602, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table .qty-wrapper {
   padding-top: 7px;
 }
 
-/* line 616, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 606, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table .qty-label {
   margin-left: 7px;
 }
 
-/* line 621, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 611, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table td {
   padding: 4px;
 }
 
-/* line 624, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 614, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table td:last-child {
   width: 30%;
   text-align: left;
 }
 
-/* line 629, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 619, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table .price-box {
   text-align: right;
 }
@@ -5641,7 +5629,7 @@ p.product-name a:hover {
 /* -------------------------------------------- *
  * Catalog - Product Options
  */
-/* line 638, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 628, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options {
   width: 100%;
   margin: 10px 0 0;
@@ -5650,70 +5638,70 @@ p.product-name a:hover {
   position: relative;
 }
 
-/* line 654, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 644, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dt {
   margin: 10px 0 3px;
   font-weight: normal;
 }
 
-/* line 659, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 649, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dt:first-child {
   margin-top: 0;
 }
 
-/* line 663, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 653, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd .qty-holder {
   display: block;
   padding: 10px 0 0 0;
 }
 
-/* line 668, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 658, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd .qty-holder .qty {
   width: 3em;
 }
 
-/* line 672, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 662, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd .qty-holder label {
   vertical-align: middle;
 }
 
-/* line 676, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 666, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd .qty-disabled {
   background: none;
   border: 0;
   padding: 0 2px;
 }
 
-/* line 682, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 672, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd {
   padding: 0 0 10px 0;
   margin: 0 0 5px;
   border-bottom: 1px solid #EDEDED;
 }
 
-/* line 688, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 678, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dl.last dd.last {
   border-bottom: 0;
   padding-bottom: 5px;
   margin-bottom: 0;
 }
 
-/* line 694, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 684, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd .input-text {
   width: 98%;
 }
 
-/* line 698, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 688, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd .input-box {
   padding-top: 0;
 }
 
-/* line 702, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 692, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd input.datetime-picker {
   width: 150px;
 }
 
-/* line 706, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 696, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd .time-picker {
   display: -moz-inline-stack;
   display: inline-block;
@@ -5725,72 +5713,72 @@ p.product-name a:hover {
   vertical-align: middle;
 }
 
-/* line 712, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 702, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd textarea {
   width: 98%;
   height: 8em;
 }
 
-/* line 717, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 707, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd select {
   width: 330px;
   max-width: 100%;
 }
 
-/* line 722, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 712, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options ul.options-list {
   margin-right: 5px;
 }
 
-/* line 726, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 716, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options ul.options-list li {
   line-height: 1.5;
   margin-bottom: 7px;
 }
 
-/* line 731, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 721, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options ul.options-list li:last-child {
   margin-bottom: 0;
 }
 
-/* line 735, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 725, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options ul.options-list .radio,
 .product-options ul.options-list .checkbox {
   float: left;
   margin-top: 5px;
 }
 
-/* line 741, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 731, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options ul.options-list .label {
   display: block;
 }
 
-/* line 745, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 735, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options ul.options-list label {
   font-weight: normal;
 }
 
-/* line 749, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 739, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options p.note {
   margin: 0;
   font-size: 11px;
 }
 
-/* line 754, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 744, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options-bottom {
   padding: 15px 20px 15px 0;
   border-top: 0;
   margin-bottom: 10px;
 }
 
-/* line 760, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 750, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options-bottom:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 764, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 754, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options-bottom .product-pricing,
 .product-options-bottom .tier-prices {
   float: right;
@@ -5807,13 +5795,13 @@ p.product-name a:hover {
   border-bottom: 1px solid #CCCCCC;
 }
 
-/* line 783, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 773, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options-bottom .tier-prices li {
   background: 0;
   padding: 2px 0;
 }
 
-/* line 788, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 778, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options-bottom .tier-prices .price,
 .product-options-bottom .tier-prices .benefit {
   color: #636363;
@@ -5821,7 +5809,7 @@ p.product-name a:hover {
 
 /* "display: none" should be removed if products on site have a long list of product options and those product options */
 /*  affect the price so that the customer can see the updated price close to the "Add to Cart" button */
-/* line 795, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 785, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options-bottom .price-box {
   display: none;
   float: right;
@@ -5829,7 +5817,7 @@ p.product-name a:hover {
   padding: 0;
 }
 
-/* line 812, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 802, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options-bottom .price-tax {
   float: left;
 }
@@ -5838,17 +5826,17 @@ p.product-name a:hover {
  * Related Products
  */
 /* Block: Related */
-/* line 824, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 814, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related li {
   margin-bottom: 7px;
 }
 
-/* line 828, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 818, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .block-title {
   border-bottom: none;
 }
 
-/* line 831, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 821, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .block-title h2 {
   margin: 0;
   margin-bottom: 0.5em;
@@ -5863,39 +5851,39 @@ p.product-name a:hover {
   margin-bottom: 0;
 }
 
-/* line 837, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 827, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .block-subtitle {
   margin-bottom: 7px;
 }
 
-/* line 841, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 831, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .product {
   margin-left: 20px;
   position: relative;
 }
 
-/* line 845, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 835, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .checkbox {
   float: left;
   margin-top: 36px;
 }
 
-/* line 850, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 840, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .product-details {
   margin-left: 90px;
 }
 
-/* line 854, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 844, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .product-name {
   margin-bottom: 3px;
 }
 
-/* line 858, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 848, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .product-details .price-box {
   margin: 2px 0 3px;
 }
 
-/* line 861, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 851, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .product-details .price-box a,
 .block-related .product-details .price-box p,
 .block-related .product-details .price-box span {
@@ -5903,7 +5891,7 @@ p.product-name a:hover {
   margin-left: 3px;
 }
 
-/* line 867, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 857, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .product-details .price-box a:first-child,
 .block-related .product-details .price-box p:first-child,
 .block-related .product-details .price-box span:first-child {
@@ -5913,14 +5901,14 @@ p.product-name a:hover {
   padding-left: 5px;
 }
 
-/* line 874, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 864, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .product-details .price-box:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 878, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 868, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .link-wishlist {
   display: none;
 }
@@ -5928,12 +5916,12 @@ p.product-name a:hover {
 /* -------------------------------------------- *
  * Upsell Products
  */
-/* line 887, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 877, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .box-up-sell {
   margin-top: 20px;
 }
 
-/* line 890, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 880, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .box-up-sell .ratings {
   display: none;
 }
@@ -11054,6 +11042,24 @@ body[class*="checkout-multishipping-"] #review-buttons-container {
 /* line 18, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_product-slide.scss */
 .product-slide .price {
   color: #636363;
+}
+
+/* line 1, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_personalization-button.scss */
+.personalization-button {
+  max-width: 300px;
+  padding-bottom: 30px;
+}
+
+/* line 5, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_personalization-button.scss */
+.personalization-button .button {
+  min-height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  padding: 0 30px;
+  min-width: 160px;
+  width: 100%;
+  white-space: normal;
+  background: #333333 url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU1LjI1IDU1LjI1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1NS4yNSA1NS4yNTsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiPgo8cGF0aCBkPSJNNTIuNjE4LDIuNjMxYy0zLjUxLTMuNTA4LTkuMjE5LTMuNTA4LTEyLjcyOSwwTDMuODI3LDM4LjY5M0MzLjgxLDM4LjcxLDMuOCwzOC43MzEsMy43ODUsMzguNzQ5ICBjLTAuMDIxLDAuMDI0LTAuMDM5LDAuMDUtMC4wNTgsMC4wNzZjLTAuMDUzLDAuMDc0LTAuMDk0LDAuMTUzLTAuMTI1LDAuMjM5Yy0wLjAwOSwwLjAyNi0wLjAyMiwwLjA0OS0wLjAyOSwwLjA3NSAgYy0wLjAwMywwLjAxLTAuMDA5LDAuMDItMC4wMTIsMC4wM2wtMy41MzUsMTQuODVjLTAuMDE2LDAuMDY3LTAuMDIsMC4xMzUtMC4wMjIsMC4yMDJDMC4wMDQsNTQuMjM0LDAsNTQuMjQ2LDAsNTQuMjU5ICBjMC4wMDEsMC4xMTQsMC4wMjYsMC4yMjUsMC4wNjUsMC4zMzJjMC4wMDksMC4wMjUsMC4wMTksMC4wNDcsMC4wMywwLjA3MWMwLjA0OSwwLjEwNywwLjExLDAuMjEsMC4xOTYsMC4yOTYgIGMwLjA5NSwwLjA5NSwwLjIwNywwLjE2OCwwLjMyOCwwLjIxOGMwLjEyMSwwLjA1LDAuMjUsMC4wNzUsMC4zNzksMC4wNzVjMC4wNzcsMCwwLjE1NS0wLjAwOSwwLjIzMS0wLjAyN2wxNC44NS0zLjUzNSAgYzAuMDI3LTAuMDA2LDAuMDUxLTAuMDIxLDAuMDc3LTAuMDNjMC4wMzQtMC4wMTEsMC4wNjYtMC4wMjQsMC4wOTktMC4wMzljMC4wNzItMC4wMzMsMC4xMzktMC4wNzQsMC4yMDEtMC4xMjMgIGMwLjAyNC0wLjAxOSwwLjA0OS0wLjAzMywwLjA3Mi0wLjA1NGMwLjAwOC0wLjAwOCwwLjAxOC0wLjAxMiwwLjAyNi0wLjAybDM2LjA2My0zNi4wNjNDNTYuMTI3LDExLjg1LDU2LjEyNyw2LjE0LDUyLjYxOCwyLjYzMXogICBNNTEuMjA0LDQuMDQ1YzIuNDg4LDIuNDg5LDIuNyw2LjM5NywwLjY1LDkuMTM3bC05Ljc4Ny05Ljc4N0M0NC44MDgsMS4zNDUsNDguNzE2LDEuNTU3LDUxLjIwNCw0LjA0NXogTTQ2LjI1NCwxOC44OTVsLTkuOS05LjkgIGwxLjQxNC0xLjQxNGw5LjksOS45TDQ2LjI1NCwxOC44OTV6IE00Ljk2MSw1MC4yODhjLTAuMzkxLTAuMzkxLTEuMDIzLTAuMzkxLTEuNDE0LDBMMi43OSw1MS4wNDVsMi41NTQtMTAuNzI4bDQuNDIyLTAuNDkxICBsLTAuNTY5LDUuMTIyYy0wLjAwNCwwLjAzOCwwLjAxLDAuMDczLDAuMDEsMC4xMWMwLDAuMDM4LTAuMDE0LDAuMDcyLTAuMDEsMC4xMWMwLjAwNCwwLjAzMywwLjAyMSwwLjA2LDAuMDI4LDAuMDkyICBjMC4wMTIsMC4wNTgsMC4wMjksMC4xMTEsMC4wNSwwLjE2NWMwLjAyNiwwLjA2NSwwLjA1NywwLjEyNCwwLjA5NSwwLjE4MWMwLjAzMSwwLjA0NiwwLjA2MiwwLjA4NywwLjEsMC4xMjcgIGMwLjA0OCwwLjA1MSwwLjEsMC4wOTQsMC4xNTcsMC4xMzRjMC4wNDUsMC4wMzEsMC4wODgsMC4wNiwwLjEzOCwwLjA4NEM5LjgzMSw0NS45ODIsOS45LDQ2LDkuOTcyLDQ2LjAxNyAgYzAuMDM4LDAuMDA5LDAuMDY5LDAuMDMsMC4xMDgsMC4wMzVjMC4wMzYsMC4wMDQsMC4wNzIsMC4wMDYsMC4xMDksMC4wMDZjMCwwLDAuMDAxLDAsMC4wMDEsMGMwLDAsMC4wMDEsMCwwLjAwMSwwaDAuMDAxICBjMCwwLDAuMDAxLDAsMC4wMDEsMGMwLjAzNiwwLDAuMDczLTAuMDAyLDAuMTA5LTAuMDA2bDUuMTIyLTAuNTY5bC0wLjQ5MSw0LjQyMkw0LjIwNCw1Mi40NTlsMC43NTctMC43NTcgIEM1LjM1MSw1MS4zMTIsNS4zNTEsNTAuNjc5LDQuOTYxLDUwLjI4OHogTTE3LjUxMSw0NC44MDlMMzkuODg5LDIyLjQzYzAuMzkxLTAuMzkxLDAuMzkxLTEuMDIzLDAtMS40MTRzLTEuMDIzLTAuMzkxLTEuNDE0LDAgIEwxNi4wOTcsNDMuMzk1bC00Ljc3MywwLjUzbDAuNTMtNC43NzNsMjIuMzgtMjIuMzc4YzAuMzkxLTAuMzkxLDAuMzkxLTEuMDIzLDAtMS40MTRzLTEuMDIzLTAuMzkxLTEuNDE0LDBMMTAuNDQsMzcuNzM4ICBsLTMuMTgzLDAuMzU0TDM0Ljk0LDEwLjQwOWw5LjksOS45TDE3LjE1Nyw0Ny45OTJMMTcuNTExLDQ0LjgwOXogTTQ5LjA4MiwxNi4wNjdsLTkuOS05LjlsMS40MTUtMS40MTVsOS45LDkuOUw0OS4wODIsMTYuMDY3eiIgZmlsbD0iI0ZGRkZGRiIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K) no-repeat 23% center;
 }
 
 /* ============================================ *
