@@ -1,0 +1,17 @@
+.related-products {
+  padding: 24px;
+
+  &__title {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  &__list {
+    font-size: 0;
+    padding: 24px 0;
+  }
+
+  &__item {
+    font-size: 14px;
+  }
+}

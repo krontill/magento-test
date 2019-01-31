@@ -621,7 +621,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sli
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_tiny_slider_src_tiny_slider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/tiny-slider/src/tiny-slider */ \"./node_modules/tiny-slider/src/tiny-slider.js\");\n\n\nconst related = document.querySelector('.related-slider');\n\nif(related) {\n    const slider = Object(_node_modules_tiny_slider_src_tiny_slider__WEBPACK_IMPORTED_MODULE_0__[\"tns\"])({\n        container: '.related-slider',\n        slideBy: 'page',\n        nav: false\n    });\n}\n\n\n//# sourceURL=webpack:///./src/sliders.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_tiny_slider_src_tiny_slider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/tiny-slider/src/tiny-slider */ \"./node_modules/tiny-slider/src/tiny-slider.js\");\n\n\nconst related = document.querySelector('.related-slider');\n\nif (related) {\n    const slider = Object(_node_modules_tiny_slider_src_tiny_slider__WEBPACK_IMPORTED_MODULE_0__[\"tns\"])({\n        container: '.related-slider',\n        nav: false,\n        items: 1,\n        responsive: {\n            640: {\n                edgePadding: 20,\n                gutter: 20,\n                items: 2\n            },\n            700: {\n                gutter: 30\n            },\n            1000: {\n                items: 3\n            },\n            1200: {\n                items: 4\n            }\n        }\n    });\n}\n\n\n//# sourceURL=webpack:///./src/sliders.js?");
 
 /***/ })
 

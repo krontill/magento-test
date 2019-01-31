@@ -1,0 +1,21 @@
+.product-slide {
+  text-align: center;
+  text-transform: uppercase;
+
+  &__image {
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+  &__name {
+    padding: 16px 0 0 0;
+  }
+
+  &__shop {
+    color: $c-pink;
+  }
+
+  .price {
+    color: $c-light-gray;
+  }
+}
