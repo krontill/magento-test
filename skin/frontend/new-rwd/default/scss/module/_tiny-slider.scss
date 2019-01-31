@@ -19,6 +19,12 @@
     text-indent: -9999px;
     border: none;
     margin: 0 -24px;
+    transition: opacity .3s;
+
+    &:hover,
+    &:focus {
+      opacity: 0.5;
+    }
 
     &:nth-child(2) {
       transform: rotate(180deg);

@@ -13633,9 +13633,15 @@ body[class*="checkout-multishipping-"] #review-buttons-container {
   text-indent: -9999px;
   border: none;
   margin: 0 -24px;
+  transition: opacity .3s;
 }
 
-/* line 23, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_tiny-slider.scss */
+/* line 24, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_tiny-slider.scss */
+.tns-controls > button:hover, .tns-controls > button:focus {
+  opacity: 0.5;
+}
+
+/* line 29, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_tiny-slider.scss */
 .tns-controls > button:nth-child(2) {
   transform: rotate(180deg);
 }
