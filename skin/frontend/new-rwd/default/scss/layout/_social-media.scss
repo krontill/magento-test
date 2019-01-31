@@ -61,3 +61,9 @@
     display: inline-block;
   }
 }
+
+@include bp(min-width, $bp-medium + 1) {
+  .social-media {
+    width: 50%;
+  }
+}
