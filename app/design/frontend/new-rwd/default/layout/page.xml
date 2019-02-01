@@ -156,6 +156,11 @@
                     <action method="addItem"><type>skin_js</type><name>build/main.js</name><params/></action>
                 </block>
             </block>
+
+            <block type="page/html_head" name="modal" as="modal" template="page/template/modal.phtml">
+                <block type="page/html_head" name="customization-modal" template="page/modal/customization-modal.phtml" />
+            </block>
+
         </block>
 
         <block type="core/profiler" output="toHtml" name="core_profiler"/>
