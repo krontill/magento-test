@@ -1,0 +1,26 @@
+.modification {
+  display: flex;
+  margin: 0 0 20px 0;
+
+  &__result {
+    width: 50%;
+    padding: 20px;
+  }
+
+  &__option {
+    width: 50%;
+  }
+
+  &__image {
+    max-width: 100%;
+  }
+
+  &__button {
+    background: $c-green;
+    min-height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    padding: 0 30px;
+    width: 100%;
+  }
+}

@@ -13720,7 +13720,7 @@ body[class*="checkout-multishipping-"] #review-buttons-container {
 
 /* line 17, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_dialog.scss */
 .dialog__wrap {
-  position: fixed;
+  position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%);
@@ -13728,9 +13728,10 @@ body[class*="checkout-multishipping-"] #review-buttons-container {
   padding: 20px;
   z-index: 2;
   min-width: 300px;
+  max-width: 700px;
 }
 
-/* line 28, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_dialog.scss */
+/* line 29, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_dialog.scss */
 .dialog__title {
   padding: 0 20px;
   text-align: center;
@@ -13738,7 +13739,7 @@ body[class*="checkout-multishipping-"] #review-buttons-container {
   font-weight: 600;
 }
 
-/* line 35, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_dialog.scss */
+/* line 36, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_dialog.scss */
 .dialog__close {
   text-indent: -9999px;
   border: none;
@@ -13748,6 +13749,76 @@ body[class*="checkout-multishipping-"] #review-buttons-container {
   position: absolute;
   right: 15px;
   top: 15px;
+}
+
+/* line 47, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_dialog.scss */
+.dialog__content {
+  padding: 20px;
+}
+
+/* line 1, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
+.modification {
+  display: flex;
+  margin: 0 0 20px 0;
+}
+
+/* line 5, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
+.modification__result {
+  width: 50%;
+  padding: 20px;
+}
+
+/* line 10, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
+.modification__option {
+  width: 50%;
+}
+
+/* line 14, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
+.modification__image {
+  max-width: 100%;
+}
+
+/* line 18, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
+.modification__button {
+  background: #11B400;
+  min-height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  padding: 0 30px;
+  width: 100%;
+}
+
+/* line 1, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_label.scss */
+.label {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* line 1, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input.scss */
+.input[type="text"] {
+  border-radius: 0;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #C0C0C0;
+}
+
+/* line 1, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input-group.scss */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+/* line 6, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input-group.scss */
+.input-group__note {
+  color: #A0A0A0;
+  padding: 10px 0;
+}
+
+/* line 1, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_counter.scss */
+.counter {
+  text-align: right;
+  color: #A0A0A0;
 }
 
 /* ============================================ *

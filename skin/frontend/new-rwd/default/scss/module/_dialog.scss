@@ -15,7 +15,7 @@
   }
 
   &__wrap {
-    position: fixed;
+    position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%);
@@ -23,6 +23,7 @@
     padding: 20px;
     z-index: 2;
     min-width: 300px;
+    max-width: 700px;
   }
 
   &__title {
@@ -41,5 +42,9 @@
     position: absolute;
     right: 15px;
     top: 15px;
+  }
+
+  &__content {
+    padding: 20px;
   }
 }
