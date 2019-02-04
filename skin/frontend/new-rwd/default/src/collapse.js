@@ -1,4 +1,4 @@
-const triggers = Array.from(document.querySelectorAll('[data-toggle="collapse"]'));
+const triggers = [...document.querySelectorAll('[data-toggle="collapse"]')];
 
 window.addEventListener('click', (ev) => {
     const elm = ev.target;
@@ -10,7 +10,7 @@ window.addEventListener('click', (ev) => {
 
 const collapse = (selector, el) => {
     el.classList.toggle('open');
-    const targets = Array.from(document.querySelectorAll(selector));
+    const targets = [...document.querySelectorAll(selector)];
     targets.forEach(target => {
         target.classList.toggle('show');
     });

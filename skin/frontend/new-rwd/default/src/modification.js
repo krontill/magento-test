@@ -32,7 +32,7 @@ if (radioColor && textImg) {
         textImg.classList.add(`text-image--${color}`);
     };
 
-    const colors = Array.from(radioColor.querySelectorAll('input[name="color"]'));
+    const colors = [...radioColor.querySelectorAll('input[name="color"]')];
 
     radioColor.addEventListener('change', (ev) => {
         const elm = ev.target;
@@ -47,7 +47,7 @@ if (radioFont && textImg) {
         textImg.setAttribute('data-font', font);
     };
 
-    const fonts = Array.from(radioFont.querySelectorAll('input[name="font"]'));
+    const fonts = [...radioFont.querySelectorAll('input[name="font"]')];
 
     radioFont.addEventListener('change', (ev) => {
         const elm = ev.target;
