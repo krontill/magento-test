@@ -1,27 +1,15 @@
 .modification {
   display: flex;
+  flex-direction: column;
   margin: 0 0 20px 0;
 
   &__result {
-    width: 50%;
     padding: 20px;
     position: relative;
   }
 
-  &__option {
-    width: 50%;
-  }
-
   &__image {
     max-width: 100%;
-  }
-
-  &__text-image {
-    position: absolute;
-    bottom: 40px;
-    text-align: center;
-    right: 30px;
-    left: 30px;
   }
 
   &__button {
@@ -31,5 +19,15 @@
     font-size: 16px;
     padding: 0 30px;
     width: 100%;
+  }
+}
+
+@include bp(min-width, $bp-medium + 1) {
+  .modification {
+    flex-direction: row;
+    &__result,
+    &__option {
+      width: 50%;
+    }
   }
 }

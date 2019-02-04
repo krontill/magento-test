@@ -11082,9 +11082,9 @@ body[class*="checkout-multishipping-"] #review-buttons-container {
 /* line 17, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_dialog.scss */
 .dialog__wrap {
   position: absolute;
-  top: 50%;
+  top: 10vh;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%);
   background: #ffffff;
   padding: 20px;
   z-index: 2;
@@ -11120,36 +11120,22 @@ body[class*="checkout-multishipping-"] #review-buttons-container {
 /* line 1, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
 .modification {
   display: flex;
+  flex-direction: column;
   margin: 0 0 20px 0;
 }
 
-/* line 5, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
+/* line 6, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
 .modification__result {
-  width: 50%;
   padding: 20px;
   position: relative;
 }
 
 /* line 11, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
-.modification__option {
-  width: 50%;
-}
-
-/* line 15, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
 .modification__image {
   max-width: 100%;
 }
 
-/* line 19, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
-.modification__text-image {
-  position: absolute;
-  bottom: 40px;
-  text-align: center;
-  right: 30px;
-  left: 30px;
-}
-
-/* line 27, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
+/* line 15, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
 .modification__button {
   background: #11B400;
   min-height: 40px;
@@ -11157,6 +11143,16 @@ body[class*="checkout-multishipping-"] #review-buttons-container {
   font-size: 16px;
   padding: 0 30px;
   width: 100%;
+}
+
+/* line 26, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
+.modification {
+  flex-direction: row;
+}
+
+/* line 28, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
+.modification__result, .modification__option {
+  width: 50%;
 }
 
 /* line 1, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_label.scss */
@@ -11171,6 +11167,105 @@ body[class*="checkout-multishipping-"] #review-buttons-container {
   height: 40px;
   width: 100%;
   border: 1px solid #C0C0C0;
+}
+
+/* line 8, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input.scss */
+.styled-checkbox,
+.styled-radio {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+/* line 14, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input.scss */
+.styled-checkbox input[type="checkbox"],
+.styled-checkbox input[type="radio"],
+.styled-radio input[type="checkbox"],
+.styled-radio input[type="radio"] {
+  display: none;
+}
+
+/* line 19, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input.scss */
+.styled-checkbox input[type="checkbox"] + label,
+.styled-checkbox input[type="radio"] + label,
+.styled-radio input[type="checkbox"] + label,
+.styled-radio input[type="radio"] + label {
+  font-size: 9px;
+  color: #A0A0A0;
+  text-align: center;
+  margin: 0 15px 0 0;
+}
+
+/* line 27, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input.scss */
+.styled-checkbox input[type="checkbox"] + label::before,
+.styled-checkbox input[type="radio"] + label::before,
+.styled-radio input[type="checkbox"] + label::before,
+.styled-radio input[type="radio"] + label::before {
+  content: "";
+  display: flex;
+  height: 30px;
+  width: 30px;
+  margin: 0 auto 5px;
+  background: #ffffff;
+  border: 1px solid #C0C0C0;
+  cursor: pointer;
+}
+
+/* line 39, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input.scss */
+.styled-checkbox input[type="checkbox"]:checked + label::before,
+.styled-checkbox input[type="radio"]:checked + label::before,
+.styled-radio input[type="checkbox"]:checked + label::before,
+.styled-radio input[type="radio"]:checked + label::before {
+  border: 1px solid #000000;
+}
+
+/* line 44, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input.scss */
+.styled-checkbox input[type="checkbox"]:disabled + label::before,
+.styled-checkbox input[type="checkbox"]:checked:disabled + label::before,
+.styled-checkbox input[type="radio"]:disabled + label::before,
+.styled-checkbox input[type="radio"]:checked:disabled + label::before,
+.styled-radio input[type="checkbox"]:disabled + label::before,
+.styled-radio input[type="checkbox"]:checked:disabled + label::before,
+.styled-radio input[type="radio"]:disabled + label::before,
+.styled-radio input[type="radio"]:checked:disabled + label::before {
+  opacity: .5;
+}
+
+/* line 53, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input.scss */
+.styled-radio--color input[type="radio"] + label[for="red"]::before {
+  background: #CF5050;
+}
+
+/* line 57, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input.scss */
+.styled-radio--color input[type="radio"] + label[for="blue"]::before {
+  background: #3399CC;
+}
+
+/* line 61, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input.scss */
+.styled-radio--color input[type="radio"] + label[for="orange"]::before {
+  background: #F3793B;
+}
+
+/* line 65, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input.scss */
+.styled-radio--color input[type="radio"] + label[for="gray"]::before {
+  background: #636363;
+}
+
+/* line 69, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input.scss */
+.styled-radio--color input[type="radio"] + label[for="black"]::before {
+  background: #000000;
+}
+
+/* line 75, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input.scss */
+.styled-radio--font input[type="radio"] + label[for="serif"]::before {
+  background: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDQ3NS4wODIgNDc1LjA4MiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDc1LjA4MiA0NzUuMDgyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTQ3My4zNzEsNDMzLjExYy0xMC42NTctMy45OTctMjAuNDU4LTYuNTYzLTI5LjQwNy03LjcwNmMtOC45NDUtMC43NjctMTUuNTE2LTIuOTUtMTkuNzAxLTYuNTY3ICAgYy0yLjQ3NS0xLjUyOS01LjgwOC02Ljk1LTkuOTk2LTE2LjI3OWMtNy44MDYtMTUuNjA0LTEzLjk4OS0yOS43ODYtMTguNTU1LTQyLjUzN2MtNy40MjctMjAuMTgxLTEzLjYxNy0zNS43ODktMTguNTY1LTQ2LjgyOSAgIGMtMTAuODQ1LTI1LjMxMS0xOS45ODItNDcuNjc4LTI3LjQwMS02Ny4wOTJjLTQuMDAxLTEwLjQ2Ni0xNS43OTctMzguNzMxLTM1LjQwNS04NC43OTZMMjU1LjgxMywyNC4yNjVsLTMuMTQyLTUuOTk2aC0xNS4xMjkgICBoLTIxLjQxNGwtNzkuOTQsMjA2LjcwNEw2OC41MjMsNDAwLjg0N2MtNS4zMyw5Ljg5Ni05LjksMTYuMzcyLTEzLjcwNiwxOS40MTdjLTMuOTk2LDIuODQ4LTE0LjQ2Niw1LjgwNS0zMS40MDUsOC44NDMgICBjLTExLjA0MiwyLjEwMi0xOC42NTQsMy44MTItMjIuODQxLDUuMTQxTDAsNDU2LjgxMmg1Ljk5NmMxNi4zNywwLDMyLjI2NC0xLjMzNCw0Ny42NzktMy45OTdsMTMuNzA2LTIuMjc5ICAgYzUzLjg2OCwzLjgwNiw4Ny4wODIsNS43MDgsOTkuNjQyLDUuNzA4YzAuMzgxLTEuOTAyLDAuNTcxLTQuNDc2LDAuNTcxLTcuNzA2YzAtNS43MTUtMC4wOTQtMTEuMjMxLTAuMjg3LTE2LjU2MyAgIGMtMy45OTYtMC41NjgtNy44NTEtMS4xNDMtMTEuNTYxLTEuNzExYy0zLjcxMS0wLjU3NS02LjU2Ny0xLjA0Ny04LjU2NS0xLjQzMWMtMS45OTctMC4zNzMtMy4yODQtMC41NjgtMy44NTUtMC41NjggICBjLTE0LjY1Ny0yLjA5NC0yNC40Ni01LjE0LTI5LjQwNy05LjEzNGMtMy4yMzYtMi4yODItNC44NTQtNi4zNzUtNC44NTQtMTIuMjc4YzAtMy44MDYsMi4xOS0xMS43OTYsNi41NjctMjMuOTgyICAgYzE0LjI3Ny0zOS43NzYsMjQuMTcyLTY1Ljg1NiwyOS42OTItNzguMjI0bDEyOC40ODMsMC41NjhsMjYuMjY5LDY1LjA5NmwxMy40MTEsMzIuNTQxYzEuMTQ0LDMuMjQxLDEuNzExLDYuMjgzLDEuNzExLDkuMTM4ICAgcy0xLjE0LDUuNDI4LTMuNDI2LDcuNzA3Yy0yLjI4NSwxLjkwNS04Ljc1Myw0LjA5My0xOS40MTcsNi41NjNsLTM3LjQwNCw3Ljk5NGMtMC43NjMsNi4yODMtMS4xMzYsMTMuNzAyLTEuMTM2LDIyLjI3MSAgIGwxNi41Ni0wLjU3NWw1Ny4xMDMtMy4xMzhjMTAuNjU2LTAuMzgsMjMuNTEtMC41NzUsMzguNTQ3LTAuNTc1YzE4LjI2NCwwLDM2LjI1MSwwLjc2Myw1My45NTcsMi4yODIgICBjMjEuMzEzLDEuNTIzLDM5LjU4OCwyLjI4Myw1NC44MTksMi4yODNjMC4xOTItMi4yODMsMC4yODEtNC43NTQsMC4yODEtNy40MjNDNDc1LjA4Miw0NDUuOTU3LDQ3NC41MTMsNDQwLjUzNyw0NzMuMzcxLDQzMy4xMXogICAgTTI1MS4yNDUsMjcwLjk0MWMtMi42NjYsMC03LjY2Mi0wLjA1Mi0xNC45ODktMC4xNDRjLTcuMzI3LTAuMDg5LTE4LjY0OS0wLjIzMy0zMy45NzMtMC40MjUgICBjLTE1LjMyMS0wLjE5NS0yOS45My0wLjM4My00My44MjQtMC41NzRsNDguNTM1LTEyOC40NzdjNy40MjQsMTUuMDM3LDE2LjE3OCwzNS4xMTcsMjYuMjY0LDYwLjI0MiAgIGMxMS40MjUsMjcuNzksMjAuMTc5LDUwLjcyNywyNi4yNzMsNjguODA5TDI1MS4yNDUsMjcwLjk0MXoiIGZpbGw9IiMwMDAwMDAiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K) no-repeat center center;
+  background-size: 16px 16px;
+}
+
+/* line 80, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input.scss */
+.styled-radio--font input[type="radio"] + label[for="sans-serif"]::before {
+  background: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiIHZpZXdCb3g9IjAgMCAxNiAxNiI+CjxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik0xMiAxNmgzbC02LTE2aC0ybC02IDE2aDNsMS45LTVoNC4ybDEuOSA1ek02LjcgOWwxLjMtMy42IDEuMyAzLjZoLTIuNnoiLz4KPC9zdmc+Cg==) no-repeat center center;
+  background-size: 16px 16px;
 }
 
 /* line 1, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_input-group.scss */
@@ -11190,6 +11285,46 @@ body[class*="checkout-multishipping-"] #review-buttons-container {
 .counter {
   text-align: right;
   color: #A0A0A0;
+}
+
+/* line 1, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_text-image.scss */
+.text-image {
+  position: absolute;
+  bottom: 40px;
+  text-align: center;
+  right: 30px;
+  left: 30px;
+  font-family: sans-serif;
+}
+
+/* line 9, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_text-image.scss */
+.text-image--red {
+  color: #CF5050;
+}
+
+/* line 13, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_text-image.scss */
+.text-image--blue {
+  color: #3399CC;
+}
+
+/* line 17, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_text-image.scss */
+.text-image--orange {
+  color: #F3793B;
+}
+
+/* line 21, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_text-image.scss */
+.text-image--gray {
+  color: #636363;
+}
+
+/* line 25, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_text-image.scss */
+.text-image--black {
+  color: #000000;
+}
+
+/* line 29, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_text-image.scss */
+.text-image[data-font="serif"] {
+  font-family: serif;
 }
 
 /* ============================================ *

@@ -38,7 +38,7 @@
                          src="/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/w/b/wbk003t.jpg"
                          alt="Tori Tank"
                          title="Tori Tank">
-                    <span class="modification__text-image">text above image</span>
+                    <span class="text-image" data-font="sans-serif">text above image</span>
                 </div>
                 <div class="modification__option">
                     <div class="input-group">
@@ -47,7 +47,6 @@
                         <input type="text"
                                id="text"
                                data-count=".counter"
-                               data-text-img=".modification__text-image"
                                class="input"
                                placeholder="Enter your text"
                                aria-label="Text"
@@ -57,14 +56,44 @@
                     </div>
                     <div class="input-group">
                         <label class="label" for="color">Color</label>
-
+                        <ul class="styled-radio styled-radio--color" data-radio="color">
+                            <li>
+                                <input id="red" type="radio" name="color" hidden/>
+                                <label for="red">Red</label>
+                            </li>
+                            <li>
+                                <input id="blue" type="radio" name="color" hidden/>
+                                <label for="blue">Blue</label>
+                            </li>
+                            <li>
+                                <input id="orange" type="radio" name="color" hidden/>
+                                <label for="orange">Orange</label>
+                            </li>
+                            <li>
+                                <input id="gray" type="radio" name="color" hidden/>
+                                <label for="gray">Gray</label>
+                            </li>
+                            <li>
+                                <input id="black" type="radio" name="color" hidden/>
+                                <label for="black">Black</label>
+                            </li>
+                        </ul>
                     </div>
                     <div class="input-group">
                         <label class="label" for="font">Font</label>
-
+                        <ul class="styled-radio styled-radio--font" data-radio="font">
+                            <li>
+                                <input id="sans-serif" type="radio" name="font" hidden/>
+                                <label for="sans-serif">Sans serif</label>
+                            </li>
+                            <li>
+                                <input id="serif" type="radio" name="font" hidden/>
+                                <label for="serif">Serif</label>
+                            </li>
+                        </ul>
                     </div>
-                    <button type="button" class="modification__button button">
-                        Save
+                    <button type="button" class="modification__button button js-dialog-close">
+                        Confirm
                     </button>
                 </div>
             </div>
