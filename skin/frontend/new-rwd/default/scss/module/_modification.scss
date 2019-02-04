@@ -25,9 +25,15 @@
 @include bp(min-width, $bp-medium + 1) {
   .modification {
     flex-direction: row;
+
     &__result,
     &__option {
       width: 50%;
+    }
+
+    &__result {
+      height: 100%;
+      align-self: center;
     }
   }
 }

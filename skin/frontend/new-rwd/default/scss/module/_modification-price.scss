@@ -1,0 +1,13 @@
+.modification-price {
+  padding: 0 0 20px 0;
+
+  &__default {
+    color: $c-red;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  &__difference {
+    font-size: 16px;
+  }
+}

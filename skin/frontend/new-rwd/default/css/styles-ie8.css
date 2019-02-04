@@ -11150,9 +11150,15 @@ body[class*="checkout-multishipping-"] #review-buttons-container {
   flex-direction: row;
 }
 
-/* line 28, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
+/* line 29, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
 .modification__result, .modification__option {
   width: 50%;
+}
+
+/* line 34, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification.scss */
+.modification__result {
+  height: 100%;
+  align-self: center;
 }
 
 /* line 1, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_label.scss */
@@ -11325,6 +11331,23 @@ body[class*="checkout-multishipping-"] #review-buttons-container {
 /* line 29, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_text-image.scss */
 .text-image[data-font="serif"] {
   font-family: serif;
+}
+
+/* line 1, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification-price.scss */
+.modification-price {
+  padding: 0 0 20px 0;
+}
+
+/* line 4, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification-price.scss */
+.modification-price__default {
+  color: #CF5050;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+/* line 10, /home/ITRANSITION.CORP/s.shcherba/PhpstormProjects/magento/skin/frontend/new-rwd/default/scss/module/_modification-price.scss */
+.modification-price__difference {
+  font-size: 16px;
 }
 
 /* ============================================ *
