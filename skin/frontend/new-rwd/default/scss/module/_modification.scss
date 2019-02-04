@@ -5,6 +5,7 @@
   &__result {
     width: 50%;
     padding: 20px;
+    position: relative;
   }
 
   &__option {
@@ -13,6 +14,14 @@
 
   &__image {
     max-width: 100%;
+  }
+
+  &__text-image {
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    right: 30px;
+    left: 30px;
   }
 
   &__button {

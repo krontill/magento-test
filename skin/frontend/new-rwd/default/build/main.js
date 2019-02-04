@@ -621,7 +621,7 @@ eval("const triggers = Array.from(document.querySelectorAll('[data-toggle=\"coll
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sliders__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sliders */ \"./src/sliders.js\");\n/* harmony import */ var _collapse__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./collapse */ \"./src/collapse.js\");\n/* harmony import */ var _collapse__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_collapse__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _modal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modal */ \"./src/modal.js\");\n\n\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sliders__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sliders */ \"./src/sliders.js\");\n/* harmony import */ var _collapse__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./collapse */ \"./src/collapse.js\");\n/* harmony import */ var _collapse__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_collapse__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _modal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modal */ \"./src/modal.js\");\n/* harmony import */ var _modification__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modification */ \"./src/modification.js\");\n/* harmony import */ var _modification__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_modification__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -634,6 +634,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sli
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var a11y_dialog_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! a11y-dialog-component */ \"./node_modules/a11y-dialog-component/dist/a11y-dialog-component.esm.js\");\n\n\nconst dialog = new a11y_dialog_component__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('.js-dialog', {\n    openingSelector: '.js-dialog-open',\n    closingSelector: '.js-dialog-close',\n    labelledby: 'dialog-title',\n});\n\n\n//# sourceURL=webpack:///./src/modal.js?");
+
+/***/ }),
+
+/***/ "./src/modification.js":
+/*!*****************************!*\
+  !*** ./src/modification.js ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("const input = document.querySelector('[data-count]');\n\nif (input) {\n\n    const handleEvent = () => {\n        const textLength = input.textLength;\n        const textContent = input.value;\n        const maxLengt = input.getAttribute('maxlength');\n        const selector = input.getAttribute('data-count');\n        const textImg = input.getAttribute('data-text-img');\n        counter(selector, textLength, maxLengt);\n        setTextImage(textImg, textContent);\n    };\n\n    const counter = (selector, length, maxLengt) => {\n        document.querySelector(selector).textContent = `${length}/${maxLengt}`;\n    };\n\n    const setTextImage = (textImg, textContent) => {\n        document.querySelector(textImg).textContent = textContent;\n    };\n\n    handleEvent();\n\n    input.oncut = input.oncopy = input.onpaste = input.oninput = handleEvent;\n}\n\n\n//# sourceURL=webpack:///./src/modification.js?");
 
 /***/ }),
 
